@@ -5,11 +5,23 @@ portable MCU transport for the EZrange breakout. The breakout acts as an I2C
 bridge: its host-facing address is forwarded to the VL53L4CD sensor, and
 measurement data are produced by the sensor.
 
+## Board variants
+
+### 100-mil connector
+
 | Front | Back |
 | --- | --- |
-| ![Front of the EZrange VL53L4CD breakout board](pictures/fronte.jpg) | ![Back of the EZrange VL53L4CD breakout board](pictures/retro.jpg) |
+| ![Front of the EZrange VL53L4CD breakout with 100-mil connector](pictures/with%20100mils%20connector/front.jpg) | ![Back of the EZrange VL53L4CD breakout with 100-mil connector](pictures/with%20100mils%20connector/back.jpg) |
 
-[Breakout schematic](pictures/breakout%20schematics.pdf)
+[100-mil connector schematic source (PRN)](pictures/with%20100mils%20connector/VL53L0X_4CD_breakout_100mils_schematics.prn)
+
+### JST connector
+
+| Front | Back |
+| --- | --- |
+| ![Front of the EZrange VL53L4CD breakout with JST connector](pictures/with%20jst%20connector/fronte.jpg) | ![Back of the EZrange VL53L4CD breakout with JST connector](pictures/with%20jst%20connector/retro.jpg) |
+
+[JST connector schematic (PDF)](pictures/with%20jst%20connector/breakout%20schematics.pdf)
 
 ## Build selection
 
